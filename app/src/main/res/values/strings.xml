@@ -3,4 +3,8 @@
     <string name="general_error">Something wrong</string>
     <string name="detail_info">Детальная информация</string>
     <string name="workers_list">Список сотрудников</string>
+    <string name="fio_tv">ФИО</string>
+    <string name="birthday_date_tv">Дата рождения</string>
+    <string name="age_tv">Возраст</string>
+    <string name="speciality_tv">Специальность</string>
 </resources>

@@ -33,6 +33,9 @@ class DetailedWorkerInfoFragment : Fragment(R.layout.fragment_detailed_worker_in
         ageTextView = view.findViewById(R.id.workerAgeTextView)
         avatar = view.findViewById(R.id.workerAvatarImageView)
 
+        toolbar = view.findViewById(R.id.myToolbarWorkerDetail)
+        toolbar.setNavigationOnClickListener { requireActivity().onBackPressed() }
+
         arguments?.getLong(WorkersListFragment.ID_ARG)?.let { workersId ->
             showDetailWorkerInfo(workersId)
         }

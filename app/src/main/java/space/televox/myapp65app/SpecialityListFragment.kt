@@ -111,6 +111,4 @@ class SpecialityListFragment : Fragment(R.layout.fragment_speciality_list) {
     private fun String.normalize(): String {
         return substring(0, 1).toUpperCase() + substring(1).toLowerCase()
     }
-
-
 }

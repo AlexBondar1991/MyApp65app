@@ -36,9 +36,9 @@
             android:id="@+id/workerAvatarImageView"
             android:layout_width="96dp"
             android:layout_height="96dp"
+            android:layout_margin="7dp"
             app:civ_border_width="2dp"
             app:civ_border_color="#FF000000"
-
             />
 
 
@@ -47,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
-            android:text="ФИО"
+            android:text="@string/fio_tv"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -71,7 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
-            android:text="Дата рождения"
+            android:text="@string/birthday_date_tv"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -87,7 +87,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
-            android:text="Возраст"
+            android:text="@string/age_tv"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -103,7 +103,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="6dp"
-            android:text="Специальность"
+            android:text="@string/speciality_tv"
             android:textSize="18sp"
             android:textStyle="bold" />
 
