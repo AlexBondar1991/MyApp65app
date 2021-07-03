@@ -20,5 +20,4 @@ interface WorkerDao {
     @Transaction
     @Query("SELECT * FROM WorkerEntity WHERE workerId = :workerId")
     fun getWorkerWithSpecialities(workerId: Long): WorkerWithSpecialities
-
 }
